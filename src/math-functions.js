@@ -111,8 +111,7 @@ export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
     let totalMul = multiply(num[0], multArr[2]);
  
     return [totalMul[0], `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${totalMul[0]}.`];
-    console.log(num)
-    console.log(totalMul)
+   
 }
 
 
@@ -133,9 +132,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 This function should be dynamic, accepting an array of any length.
 */
 
-export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+// export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-}
+// }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 // You're done! Submit the link to the repo following the instructions in Canvas.
